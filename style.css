@@ -36,4 +36,16 @@ nav ul li a {
     margin-left: 60px;
 }
 
+/* celular */
 
+@media (max-width: 767px) {
+
+    nav ul li a {
+        text-decoration: none;
+        font-family: var(--corpo_texto), monospace;
+        color: var(--preto);
+        font-size: 18px;
+        margin: 30px;
+        display: flex;
+    }
+}

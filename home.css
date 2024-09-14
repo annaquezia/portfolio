@@ -24,8 +24,10 @@ html, body {
 .imagem_texto .estrela {
     color: var(--rosa);
     font-size: 30px;
-    translate: 70px;
+    margin-right: 0;
+    margin-left: 70px;
 }
+
 .imagem_texto .texto h2 {
     font-size: 60px;
     text-align: right;
@@ -40,6 +42,7 @@ html, body {
 
 .imagem_texto figure img {
     width: 50vw;
+    height: 100vh;
 }
 
 .imagem_texto .texto ul {
@@ -57,4 +60,59 @@ html, body {
 .imagem_texto .texto ul li a:hover {
     text-decoration: underline;
     color: var(--rosa);
+}
+
+/* tablet */
+
+@media (max-width: 1023px) {
+
+    .imagem_texto .estrela_texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem_texto .texto {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .imagem_texto figure img {
+        display: none;
+    }
+
+}
+
+/* tablet */
+
+@media (max-width: 1023px) {
+
+    .imagem_texto .estrela_texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .imagem_texto .texto {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .imagem_texto figure img {
+        width: 0;
+    }
+
+    .imagem_texto .estrela {
+        color: var(--rosa);
+        font-size: 30px;
+        translate: 0;
+    }
+
 }
