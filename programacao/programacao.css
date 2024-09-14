@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    margin: 60px;
+}
+
+figure {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+figure img {
+    width: 450px;
+    border: var(--preto) 1px solid;
+}
+
+article {
+    width: 50%;
+}
+
+.container article h1 {
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.container article p {
+    color: var(--preto);
+    font-family: var(--corpo_texto), monospace;
+    font-size: 20px;
+    line-height: 1.8em;
+    margin-top: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.container .links {
+    margin-top: 10px;
+}
+
+.container .links a {
+    color: var(--rosa);
+    font-family: var(--corpo_texto), monospace;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.container .links a:hover {
+    color: var(--preto);
+    text-decoration: none;
+}

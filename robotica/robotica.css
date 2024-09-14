@@ -1,0 +1,278 @@
+.image_container_robotica {
+    position: relative;
+}
+
+.image_container_robotica img {
+    width: 100%;
+    filter: brightness(0.25) opacity(0.9);
+}
+
+.imagem_texto_robotica {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    background: none;
+    font-size: 55px;
+    font-weight: 900;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quinze {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.quinze article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quinze article h1 {
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.quinze article p {
+    color: var(--preto);
+    font-family: var(--corpo_texto), monospace;
+    font-size: 23px;
+    margin-top: 20px;
+    line-height: 1.6em;
+    text-align: right;
+    margin-right: 30px;
+    margin-left: 80px;
+}
+
+.quinze figure {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quinze figure img {
+    width: 500px;
+}
+
+.dezesseis .texto_imagem {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.dezesseis .texto_imagem figure {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.dezesseis .texto_imagem figure img {
+    width: 600px;
+}
+
+.dezesseis .texto_imagem article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dezesseis .texto_imagem article h1 {
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.dezesseis .texto_imagem article p {
+    color: var(--preto);
+    font-family: var(--corpo_texto), monospace;
+    font-size: 23px;
+    margin-top: 20px;
+    line-height: 1.6em;
+    text-align: left;
+    margin-left: 30px;
+    width: 500px;
+}
+
+.dezesseis .certificado_2016 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--rosa);
+}
+
+.dezesseis .certificado_2016 img {
+    width: 700px;
+    margin: 50px;
+}
+
+.dezessete .texto_imagem article {
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dezessete .texto_imagem article h1 {
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.dezessete .texto_imagem article p {
+    color: var(--preto);
+    font-family: var(--corpo_texto), monospace;
+    font-size: 23px;
+    margin-top: 20px;
+    line-height: 1.6em;
+    text-align: center;
+    width: 1000px;
+}
+
+.dezessete .texto_imagem figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dezessete .texto_imagem figure img {
+    width: 1000px;
+    margin: -150px;
+    background: none;
+}
+
+.dezessete .certificado_2017 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--rosa);
+}
+
+.dezessete .certificado_2017 img {
+    width: 700px;
+    margin: 50px;
+}
+
+.dezoito {
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.dezoito article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dezoito article h1 {
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.dezoito article p {
+    color: var(--preto);
+    font-family: var(--corpo_texto), monospace;
+    font-size: 23px;
+    margin-top: 20px;
+    line-height: 1.6em;
+    text-align: right;
+    margin-right: 30px;
+    margin-left: 80px;
+}
+
+.dezoito figure {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.dezoito figure img {
+    width: 100%;
+}
+
+.medalhas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--preto);
+}
+
+.medalhas img {
+    width: 700px;
+    margin: 50px;
+}
+
+.outros_trabalhos_robotica {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background: var(--rosa);
+}
+
+.outros_trabalhos_robotica h2 {
+    color: var(--cor_fundo);
+    font-family: var(--titulo), sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 60px;
+    background: none;
+}
+
+.outros_trabalhos_robotica ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 60px;
+    background: none;
+
+}
+
+.outros_trabalhos_robotica ul li {
+    text-align: left;
+    width: 800px;
+    background: none;
+}
+
+.outros_trabalhos_robotica ul li a {
+    color: var(--cor_fundo);
+    font-family: var(--titulo), sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: 2em;
+    background-color: var(--rosa);
+}
+
+.outros_trabalhos_robotica ul li a:hover {
+    color: var(--preto);
+    text-decoration: underline;
+}

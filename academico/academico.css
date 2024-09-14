@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+}
+
+.container article {
+    width: 50%;
+}
+
+.container figure {
+    width: 50%;
+}
+
+.container figure img {
+    width: 730px;
+}
+
+.container article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    font-family: var(--titulo), sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.6em;
+}
+
+.container article ul li {
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.container article ul li a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.container article ul li a:hover {
+    text-decoration: underline;
+    color: var(--rosa);
+}

@@ -1,0 +1,113 @@
+.titulo_inclusao {
+    width: 100%;
+    height: 500px;
+    background: var(--rosa);
+    display: flex;
+    align-items: center;
+}
+
+.titulo_inclusao h1 {
+    font-family: var(--titulo), sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    color: var(--cor_fundo);
+    background: none;
+    text-align: center;
+    margin: 40px
+}
+
+.texto_centro_inclusao {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.texto_centro_inclusao p {
+    font-family: var(--corpo_texto), monospace;
+    font-size: 25px;
+    line-height: 1.6em;
+    color: var(--preto);
+    text-align: center;
+    margin: 100px;
+}
+
+.bottom_inclusao {
+    width: 100%;
+    height: 600px;
+    background: var(--preto);
+    display: flex;
+    align-items: center;
+}
+
+.bottom_inclusao p {
+    background: none;
+    color: var(--rosa);
+    font-family: var(--corpo_texto), monospace;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.6em;
+    margin: 100px;
+}
+
+h2 {
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    margin: 60px;
+}
+
+.certificado_inclusao {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.certificado_inclusao img {
+    width: 500px;
+}
+
+.outros_trabalhos_inclusao {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background: var(--rosa);
+}
+
+.outros_trabalhos_inclusao h2 {
+    color: var(--cor_fundo);
+    background: none;
+}
+
+.outros_trabalhos_inclusao ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 60px;
+    background: none;
+
+}
+
+.outros_trabalhos_inclusao ul li {
+    text-align: left;
+    width: 800px;
+    background: none;
+}
+
+.outros_trabalhos_inclusao ul li a {
+    color: var(--cor_fundo);
+    font-family: var(--titulo), sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: 2em;
+    background-color: var(--rosa);
+}
+
+.outros_trabalhos_inclusao ul li a:hover {
+    color: var(--preto);
+    text-decoration: underline;
+}

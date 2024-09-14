@@ -1,0 +1,148 @@
+.image_container_beelive {
+    position: relative;
+}
+
+.image_container_beelive img {
+    width: 100%;
+    filter: brightness(0.25) opacity(0.9);
+}
+
+.imagem_texto_beelive {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    background: none;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.texto_imagem_beelive {
+    display: flex;
+}
+
+.texto_imagem_beelive .fotos {
+    width: 50%;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.beelive1 img {
+    width: 300px;
+    translate: -200px 70px;
+}
+
+.beelive2 img {
+    width: 400px;
+}
+
+.beelive3 img {
+    width: 300px;
+    translate: 200px -30px;
+}
+
+.texto_imagem_beelive article {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto_imagem_beelive article p {
+    color: var(--preto);
+    font-family: var(--corpo_texto), monospace;
+    text-align: justify;
+    width: 500px;
+    font-size: 23px;
+    line-height: 1.6em;
+}
+
+.texto_centro_beelive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--preto);
+    width: 100%;
+    height: 400px;
+}
+.texto_centro_beelive p {
+    color: var(--cor_fundo);
+    font-family: var(--corpo_texto), monospace;
+    text-align: center;
+    background: none;
+    font-size: 25px;
+    line-height: 1.6em;
+    width: 700px;
+}
+
+h1 {
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 60px;
+}
+
+.certificado_beelive {
+    text-align: center;
+    margin: 30px;
+}
+.certificado_beelive img{
+    width: 1000px;
+    margin-bottom: 60px;
+}
+
+.outros_trabalhos_beelive {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background: var(--rosa);
+}
+
+h2 {
+    color: var(--cor_fundo);
+    font-family: var(--titulo), sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 60px;
+    background: none;
+}
+
+.outros_trabalhos_beelive ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 60px;
+    background: none;
+
+}
+
+.outros_trabalhos_beelive ul li {
+    text-align: left;
+    width: 800px;
+    background: none;
+}
+
+.outros_trabalhos_beelive ul li a {
+    color: var(--cor_fundo);
+    font-family: var(--titulo), sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: 2em;
+    background-color: var(--rosa);
+}
+
+.outros_trabalhos_beelive ul li a:hover {
+    color: var(--preto);
+    text-decoration: underline;
+}
