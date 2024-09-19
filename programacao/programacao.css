@@ -51,6 +51,23 @@ article {
     text-decoration: none;
 }
 
+/* celular */
+@media (max-width: 767px) {
+    figure img {
+        width: 100%;
+    }
+
+    .container .links a {
+        color: var(--rosa);
+        font-family: var(--corpo_texto), monospace;
+        padding-right: 20px;
+        font-size: 18px;
+        display: flex;
+    }
+
+
+}
+
 /* tablet */
 
 @media (max-width: 1023px) {
