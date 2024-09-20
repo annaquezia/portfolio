@@ -60,9 +60,14 @@ h2 {
 
 .certificado_inclusao {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     width: 100%;
     margin-bottom: 100px;
+}
+
+.certificado_inclusao figure {
+    display: flex;
+    justify-content: space-around;
 }
 
 .certificado_inclusao img {
@@ -110,4 +115,74 @@ h2 {
 .outros_trabalhos_inclusao ul li a:hover {
     color: var(--preto);
     text-decoration: underline;
+}
+
+/* celular */
+
+@media (max-width: 767px) {
+
+    .titulo_inclusao {
+        height: 300px;
+    }
+
+    .titulo_inclusao h1 {
+        font-size: 33px;
+    }
+
+    .texto_centro_inclusao p {
+        font-size: 18px;
+        margin: 0;
+        padding: 60px;
+        text-align: justify;
+    }
+
+    .bottom_inclusao p {
+        font-size: 18px;
+        padding: 60px;
+        margin: 0;
+        text-align: justify;
+    }
+
+    .certificado_inclusao h2 {
+        font-size: 28px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .certificado_inclusao figure {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .certificado_inclusao figure img {
+        width: 90%;
+        margin-bottom: 60px;
+    }
+
+    .outros_trabalhos_inclusao {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .outros_trabalhos_inclusao h2 {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .outros_trabalhos_inclusao ul {
+        margin: 20px;
+    }
+
+    .outros_trabalhos_inclusao ul li {
+        width: 100%;
+        line-height: 1.6em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .outros_trabalhos_inclusao ul li a {
+        font-size: 18px;
+    }
 }

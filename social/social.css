@@ -30,23 +30,11 @@
 
 .container .all {
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
-.acalento1 img {
-    width: 250px;
-    translate: -90px 90px;
-}
-
-.acalento2 img {
-    width: 350px;
-}
-
-.acalento3 img {
-    width: 200px;
-    translate: 280px -70px;
-
+.container figure img {
+    width: 100%;
 }
 .container article {
     width: 50%;
@@ -85,20 +73,68 @@ article p {
 
 .bottom {
     display: flex;
-    margin: 200px;
+    margin-top: 100px;
     justify-content: center;
 }
 
-.acalento4 img {
-    width: 300px;
-    translate: 150px 270px;
+.bottom img {
+    width: 2000px;
 }
 
-.acalento5 img {
-    width: 400px;
-}
+/* celular */
 
-.acalento6 img {
-    width: 350px;
-    translate: -150px -100px;
+@media (max-width: 767px) {
+
+    .image_container {
+        margin-top: 20px;
+    }
+
+    .imagem_texto {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container figure {
+        width: 100%;
+    }
+
+    .container figure img {
+        width: 100%;
+    }
+
+    .container article {
+        width: 100%;
+    }
+
+    .container article p {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 18px;
+
+        line-height: 1.6em;
+    }
+
+    .texto_centro {
+        height: 600px;
+    }
+
+    .texto_centro p {
+        font-size: 18px;
+        margin: 50px;
+    }
+
+    .bottom {
+        margin: 0;
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .bottom img{
+        width: 750px;
+    }
 }

@@ -8,10 +8,11 @@
 
 .container figure {
     width: 50%;
+    height: 100%;
 }
 
 .container figure img {
-    width: 730px;
+    width: 100%;
 }
 
 .container article {
@@ -26,7 +27,7 @@
 }
 
 .container article ul li {
-    text-decoration: none;
+    list-style: none;
     margin-right: 20px;
     margin-top: 30px;
 }
@@ -39,4 +40,27 @@
 .container article ul li a:hover {
     text-decoration: underline;
     color: var(--rosa);
+}
+
+/* celular */
+
+@media (max-width: 767px) {
+
+    .container figure {
+        width: 0;
+    }
+
+    .container figure img {
+        display: none;
+    }
+
+    .container article {
+        width: 100%;
+    }
+
+    .container article {
+        font-size: 30px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
 }

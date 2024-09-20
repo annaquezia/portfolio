@@ -62,9 +62,9 @@ html, body {
     color: var(--rosa);
 }
 
-/* tablet */
+/* celular */
 
-@media (max-width: 560px) {
+@media (max-width: 767px) {
 
     .imagem_texto .estrela_texto {
         display: flex;

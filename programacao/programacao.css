@@ -57,6 +57,11 @@ article {
         width: 100%;
     }
 
+    .container article p {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+
     .container .links a {
         color: var(--rosa);
         font-family: var(--corpo_texto), monospace;

@@ -30,23 +30,12 @@
 
 .fotos {
     display: flex;
-    flex-direction: column;
     align-items: center;
     margin: 30px;
 }
 
-.beelive1 img {
-    width: 300px;
-    translate: -200px 70px;
-}
-
-.beelive2 img {
-    width: 400px;
-}
-
-.beelive3 img {
-    width: 300px;
-    translate: 200px -30px;
+.fotos img {
+    width: 100%;
 }
 
 .texto_imagem_beelive article {
@@ -83,12 +72,13 @@
     width: 700px;
 }
 
-h1 {
+.certificado_beelive h1 {
     color: var(--rosa);
     font-family: var(--titulo), sans-serif;
     font-size: 40px;
     font-weight: 900;
     margin: 60px;
+    text-align: left;
 }
 
 .certificado_beelive {
@@ -96,7 +86,7 @@ h1 {
     margin: 30px;
 }
 .certificado_beelive img{
-    width: 1000px;
+    width: 100%;
     margin-bottom: 60px;
 }
 
@@ -145,4 +135,84 @@ h2 {
 .outros_trabalhos_beelive ul li a:hover {
     color: var(--preto);
     text-decoration: underline;
+}
+
+/* celular */
+
+@media (max-width: 767px) {
+    .imagem_texto_beelive {
+        width: 100%;
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .texto_imagem_beelive {
+        flex-direction: column;
+    }
+
+    .texto_imagem_beelive .fotos {
+        margin: 0;
+        width: 100%;
+    }
+
+    .texto_imagem_beelive img {
+        width: 100%;
+    }
+
+    .texto_imagem_beelive article {
+        width: 100%;
+    }
+
+    .texto_imagem_beelive article p {
+        font-size: 18px;
+        line-height: 1.6em;
+        margin: 50px;
+    }
+
+    .texto_centro_beelive p {
+        font-size: 18px;
+        line-height: 1.6em;
+        margin: 50px;
+    }
+
+    .certificado_beelive h1 {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .certificado_beelive figure{
+        width: 100%;
+    }
+
+    .certificado_beelive figure img {
+        width: 100% ;
+    }
+
+    .outros_trabalhos_beelive {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .outros_trabalhos_beelive h2 {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .outros_trabalhos_beelive ul {
+        margin: 20px;
+    }
+
+    .outros_trabalhos_beelive ul li {
+        width: 100%;
+        line-height: 1.6em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .outros_trabalhos_beelive ul li a {
+        font-size: 18px;
+    }
 }
