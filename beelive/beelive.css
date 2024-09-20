@@ -56,6 +56,7 @@
 
 .texto_centro_beelive {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--preto);
@@ -70,6 +71,24 @@
     font-size: 25px;
     line-height: 1.6em;
     width: 700px;
+}
+
+.texto_centro_beelive a {
+    background-color: var(--preto);
+    font-family: var(--corpo_texto), monospace;
+    text-align: center;
+    color: var(--cor_fundo);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.texto_centro_beelive a:hover {
+    text-decoration: none;
+    color: var(--preto);
+    background-color: var(--rosa);
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .certificado_beelive h1 {
@@ -169,10 +188,18 @@ h2 {
         margin: 50px;
     }
 
+    .texto_centro_beelive {
+        width: 100%;
+    }
+
     .texto_centro_beelive p {
         font-size: 18px;
         line-height: 1.6em;
-        margin: 50px;
+        width: 80%;
+    }
+
+    .texto_centro_beelive a {
+        font-size: 15px;
     }
 
     .certificado_beelive h1 {

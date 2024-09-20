@@ -56,17 +56,37 @@
 .texto_centro {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background: var(--rosa);
     border-radius: 30px;
     height: 500px;
     width: 100%;
 }
 
+.texto_centro a {
+    color: var(--cor_fundo);
+    background-color: var(--rosa);
+    font-family: var(--corpo_texto), monospace;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.texto_centro a:hover {
+    text-decoration: none;
+    color: var(--rosa);
+    background-color: var(--preto);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
 article p {
     font-family: var(--corpo_texto), monospace;
     font-size: 23px;
     text-align: center;
-    margin: 200px;
+    margin-left: 200px;
+    margin-right: 200px ;
     line-height: 1.8em;
     background: none;
 }
@@ -120,12 +140,19 @@ article p {
     }
 
     .texto_centro {
-        height: 600px;
+        height: 700px;
     }
 
     .texto_centro p {
         font-size: 18px;
-        margin: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .texto_centro a {
+        font-size: 15px;
+        margin-top: 10px;
+        font-weight: bold;
     }
 
     .bottom {
