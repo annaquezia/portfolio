@@ -92,3 +92,36 @@
     margin: 20px;
     align-items: center;
 }
+
+/* celular */
+
+@media (max-width: 767px) {
+
+    .imagem_texto_fujifilm {
+        width: 100%;
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .voltar a {
+        font-size: 15px;
+    }
+
+    .proximo a {
+        font-size: 15px;
+    }
+
+    .titulo_fujifilm h1 {
+        font-size: 30px;
+    }
+
+    .fotos_fujifilm img {
+        margin-bottom: 10px;
+    }
+
+    .fotos_fujifilm {
+        column-count: 2;
+        column-gap: 10px;
+    }
+
+}

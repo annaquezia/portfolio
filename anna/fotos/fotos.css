@@ -64,3 +64,36 @@
     filter: opacity(0.5);
     width: 110%;
 }
+
+/* celular */
+
+@media (max-width: 767px) {
+
+    .imagem_texto_fotos {
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .titulo_album h1 {
+        font-size: 25px;
+    }
+
+    .albuns {
+        margin: 30px;
+    }
+
+    .primeira {
+        width: 50%;
+        margin: 10px;
+    }
+
+    .segunda {
+        width: 50%;
+        margin: 10px;
+    }
+
+    .albuns p {
+        font-size: 15px;
+    }
+}

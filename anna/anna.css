@@ -322,3 +322,188 @@
 nav {
     border-top: 2px solid var(--rosa); ;
 }
+
+/* celular */
+
+@media (max-width: 767px) {
+
+    .texto {
+        flex-direction: column;
+        margin: 60px 40px;
+    }
+
+    .texto .titulo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .texto .titulo h1 {
+        font-size: 45px;
+    }
+
+    .texto .subtitulo {
+        width: 100%;
+    }
+
+    .texto .subtitulo p {
+        font-size: 20px;
+    }
+
+    .criaca {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .criaca article {
+        width: 100%;
+        align-items: center;
+    }
+
+    .criaca article p {
+        font-size: 20px;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .criaca figure {
+        width: 100%;
+    }
+
+    .adolescente {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .adolescente figure {
+        width: 100%;
+    }
+
+    .adolescente article {
+        width: 100%;
+    }
+
+    .adolescente article p {
+        text-align: center;
+        margin: 30px;
+        font-size: 20px;
+    }
+
+    .mudanca {
+        flex-direction: column;
+    }
+
+    .mudanca article {
+        width: 100%;
+    }
+
+    .mudanca article p {
+        font-size: 20px;
+        text-align: center;
+        margin: 30px;
+    }
+
+    .mudanca figure {
+        width: 100%;
+    }
+
+    .faculdade {
+        flex-direction: column;
+    }
+
+    .faculdade figure {
+        width: 100%;
+    }
+
+    .faculdade article {
+        width: 100%;
+    }
+
+    .faculdade article p {
+        font-size: 20px;
+        text-align: center;
+        margin: 30px;
+    }
+
+    .atualidade p {
+        margin: 50px;
+        font-size: 20px;
+    }
+
+    .fotografia {
+        flex-direction: column;
+    }
+
+    .fotografia article {
+        width: 100%;
+    }
+
+    .fotografia article h2 {
+        font-size: 35px;
+        margin: 20px;
+    }
+
+    .fotografia article p {
+        font-size: 20px;
+        margin-left: 60px;
+        margin-right: 20px;
+    }
+
+    .fotografia article a {
+        margin-left: 60px;
+        font-size: 18px;
+    }
+
+    .fotografia figure {
+        width: 100%;
+    }
+
+    .redes_sociais {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .redes_sociais .youtube {
+        width: 100%;
+        margin: 0;
+    }
+
+    .redes_sociais .youtube h2 {
+        font-size: 35px;
+        margin: 30px;
+    }
+
+    .redes_sociais .youtube p {
+        font-size: 20px;
+        margin-left: 60px;
+        margin-right: 20px;
+    }
+
+    .redes_sociais .youtube a {
+        font-size: 18px;
+        margin-left: 60px;
+    }
+
+    .redes_sociais .tiktok {
+        width: 100%;
+        margin: 0;
+    }
+
+    .redes_sociais .tiktok h2 {
+        font-size: 35px;
+        margin: 20px;
+    }
+
+    .redes_sociais .tiktok p {
+        font-size: 20px;
+        margin-left: 60px;
+        margin-right: 20px;
+    }
+
+    .redes_sociais .tiktok a {
+        font-size: 18px;
+        margin-left: 60px;
+    }
+
+
+}
+
