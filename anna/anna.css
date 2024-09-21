@@ -1,0 +1,324 @@
+.texto {
+    display: flex;
+    text-align: left;
+    margin: 100px 150px;
+}
+
+.texto .titulo {
+    width: 50%;
+    color: var(--preto);
+}
+
+.texto .titulo h1 {
+    font-family: var(--titulo), sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.texto .subtitulo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto .subtitulo p {
+    font-family: var(--corpo_texto), monospace;
+    font-size: 23px;
+}
+
+.inicio figure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.inicio figure img {
+    width: 80%;
+
+}
+
+.criaca {
+    width: 100%;
+    display: flex;
+}
+
+.criaca article {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.criaca article p {
+    font-family: var(--corpo_texto), monospace;
+    color: var(--preto);
+    font-size: 25px;
+    text-align: right;
+    line-height: 1.8em;
+    margin-left: 100px;
+}
+
+.criaca figure {
+    width: 50%;
+}
+
+.criaca figure img {
+    width: 100%;
+}
+
+.adolescente {
+    width: 100%;
+    display: flex;
+}
+
+.adolescente figure {
+    width: 50%;
+    background-color: var(--preto);
+}
+
+.adolescente figure img {
+    width: 100%;
+    background-color: var(--preto);
+}
+
+.adolescente article {
+    width: 50%;
+    background: var(--preto);
+    display: flex;
+    align-items: center;
+}
+
+.adolescente article p {
+    font-family: var(--corpo_texto), monospace;
+    color: var(--cor_fundo);
+    font-size: 25px;
+    background: none;
+    text-align: left;
+    line-height: 1.8em;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.mudanca {
+    width: 100%;
+    display: flex;
+}
+
+.mudanca article {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.mudanca article p {
+    font-family: var(--corpo_texto), monospace;
+    color: var(--preto);
+    font-size: 25px;
+    text-align: right;
+    line-height: 1.8em;
+    margin-left: 100px;
+}
+
+.mudanca figure {
+    width: 50%;
+}
+
+.mudanca figure img {
+    width: 100%;
+}
+
+.faculdade {
+    width: 100%;
+    display: flex;
+}
+
+.faculdade figure {
+    width: 50%;
+    background-color: var(--rosa);
+    display: flex;
+    justify-content: center;
+}
+
+.faculdade figure img {
+    width: 45%;
+    background-color: var(--rosa);
+    margin: 80px;
+}
+
+.faculdade article {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    background: var(--rosa);
+}
+
+.faculdade article p {
+    font-family: var(--corpo_texto), monospace;
+    color: var(--cor_fundo);
+    background: none;
+    font-size: 25px;
+    text-align: left;
+    margin-right: 150px;
+    line-height: 1.8em;
+}
+
+
+.atualidade {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.atualidade p {
+    margin: 150px 300px;
+    font-family: var(--corpo_texto), monospace;
+    color: var(--preto);
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.8em;
+}
+
+.fotografia {
+    width: 100%;
+    display: flex;
+}
+
+.fotografia article {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--rosa);
+}
+
+.fotografia article h2 {
+    font-family: var(--titulo), sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    color: var(--cor_fundo);
+    background: none;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.fotografia article p {
+    font-family: var(--corpo_texto), monospace;
+    color: var(--preto);
+    font-size: 25px;
+    background: none;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    line-height: 1.8em;
+}
+
+.fotografia article a {
+    background: none;
+    font-family: var(--corpo_texto), monospace;
+    color: var(--cor_fundo);
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+
+.fotografia article a:hover {
+    text-decoration: none;
+    background: var(--preto);
+    color: var(--rosa);
+    width: 200px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.fotografia figure {
+    width: 50%;
+    background-color: var(--rosa);
+}
+
+.fotografia figure img {
+    width: 100%;
+    background-color: var(--rosa);
+}
+
+.redes_sociais {
+    width: 100%;
+    display: flex;
+}
+
+.redes_sociais .youtube {
+    width: 50%;
+    margin: 100px;
+}
+
+.redes_sociais .youtube h2 {
+    font-family: var(--titulo), sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    color: var(--rosa);
+    margin-bottom: 20px;
+}
+
+.redes_sociais .youtube p {
+    font-family: var(--corpo_texto), monospace;
+    color: var(--preto);
+    font-size: 25px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    line-height: 1.8em;
+}
+
+.redes_sociais .youtube a {
+    margin-left: 45px;
+    color: var(--rosa);
+    font-family: var(--corpo_texto), monospace;
+    font-weight: bold;
+    font-size: 23px;
+
+}
+
+.redes_sociais .youtube a:hover {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.redes_sociais .tiktok {
+    width: 50%;
+    margin: 100px;
+}
+
+.redes_sociais .tiktok h2 {
+    font-family: var(--titulo), sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    color: var(--rosa);
+    margin-bottom: 20px;
+}
+
+.redes_sociais .tiktok p {
+    font-family: var(--corpo_texto), monospace;
+    color: var(--preto);
+    font-size: 25px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    line-height: 1.8em;
+}
+
+.redes_sociais .tiktok a {
+    margin-left: 45px;
+    color: var(--rosa);
+    font-family: var(--corpo_texto), monospace;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.redes_sociais .tiktok a:hover {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+nav {
+    border-top: 2px solid var(--rosa); ;
+}
