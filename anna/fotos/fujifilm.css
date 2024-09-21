@@ -1,0 +1,94 @@
+.image_container_fujifilm {
+    position: relative;
+}
+
+.image_container_fujifilm img {
+    width: 100%;
+    filter: brightness(0.25) opacity(0.9);
+}
+
+.imagem_texto_fujifilm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    background: none;
+    font-size: 55px;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+}
+
+.opcoes {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background: none;
+    display: flex;
+}
+
+.voltar {
+    background: none;
+}
+
+.voltar a {
+    font-family: var(--corpo_texto), monospace;
+    color: var(--rosa);
+    font-size: 25px;
+    background: none;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.voltar a:hover {
+    text-decoration: underline;
+    color: var(--cor_fundo);
+}
+
+.proximo {
+    background: none;
+}
+
+.proximo a {
+    font-family: var(--corpo_texto), monospace;
+    color: var(--rosa);
+    font-size: 25px;
+    background: none;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.proximo a:hover {
+    text-decoration: underline;
+    color: var(--cor_fundo);
+}
+
+.titulo_fujifilm {
+    margin: 40px;
+}
+
+.titulo_fujifilm h1 {
+    color: var(--rosa);
+    font-family: var(--titulo), sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.fotos_fujifilm img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+}
+
+.fotos_fujifilm {
+    column-count: 5;
+    column-gap: 20px;
+    margin: 20px;
+    align-items: center;
+}
