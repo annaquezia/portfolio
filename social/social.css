@@ -103,7 +103,7 @@ article p {
 
 /* celular */
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
 
     .image_container {
         margin-top: 20px;

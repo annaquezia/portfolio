@@ -279,7 +279,7 @@
 
 /* celular */
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
     .imagem_texto_robotica {
         font-size: 33px;
         width: 100%;
