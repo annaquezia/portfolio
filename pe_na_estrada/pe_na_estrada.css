@@ -41,7 +41,6 @@
 
 .fazenda_ponte_alta {
     width: 100%;
-    height: 800px;
     display: flex;
 }
 
@@ -89,7 +88,6 @@
 .ilha_grande article {
     width: 100%;
     background: var(--rosa);
-    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,7 +99,7 @@
     font-size: 40px;
     font-weight: 900;
     text-align: center;
-    margin-right: 30px;
+    margin: 50px;
     background: none;
 }
 
@@ -109,11 +107,11 @@
     color: var(--preto);
     font-family: var(--corpo_texto), monospace;
     font-size: 23px;
-    margin-top: 30px;
     line-height: 1.6em;
     text-align: center;
     margin-right: 200px;
     margin-left: 200px;
+    margin-bottom: 50px;
     background: none;
 }
 
@@ -124,13 +122,12 @@
 }
 
 .ilha_grande figure img {
-    width: 800px;
+    width: 80%;
     margin: 60px;
 }
 
 .paraty {
     width: 100%;
-    height: 700px;
     display: flex;
 }
 
@@ -263,7 +260,6 @@
     }
 
     .fazenda_ponte_alta {
-        height: 1000px;
         display: flex;
         flex-direction: column;
     }
@@ -299,24 +295,18 @@
 
     .ilha_grande {
         width: 100%;
-        height: 1800px;
     }
 
-    .ilha_grande article {
-        height: 1200px;
-    }
+
     .ilha_grande article h2 {
         font-size: 28px;
-        margin: 0;
-        padding-bottom: 20px;
     }
 
     .ilha_grande article p {
         font-size: 18px;
         text-align: center;
-        margin: 0;
-        padding-left: 50px;
-        padding-right: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
     }
 
     .ilha_grande figure {
@@ -333,7 +323,6 @@
         flex-direction: column;
         background: var(--preto);
         align-items: center;
-        height: 800px;
         justify-content: center;
     }
 
@@ -348,22 +337,18 @@
 
     .paraty .texto {
         width: 100%;
-        margin: 0;
     }
 
     .paraty .texto h2 {
         font-size: 23px;
+        margin: 10px;
         text-align: center;
-        margin: 0;
-        padding-bottom: 30px;
     }
 
     .paraty .texto p {
         font-size: 18px;
         text-align: center;
-        margin: 0;
-        padding-left: 30px;
-        padding-right: 30px;
+        margin: 50px;
     }
 
     .outros_trabalhos_estrada {
@@ -374,11 +359,11 @@
 
     .outros_trabalhos_estrada h2 {
         font-size: 25px;
-        margin: 0;
+        margin: 40px;
     }
 
     .outros_trabalhos_estrada ul {
-        margin: 20px;
+        margin: 0;
     }
 
     .outros_trabalhos_estrada ul li {

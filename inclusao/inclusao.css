@@ -168,11 +168,11 @@ h2 {
 
     .outros_trabalhos_inclusao h2 {
         font-size: 25px;
-        margin: 0;
+        margin: 40px;
     }
 
     .outros_trabalhos_inclusao ul {
-        margin: 20px;
+        margin: 0;
     }
 
     .outros_trabalhos_inclusao ul li {

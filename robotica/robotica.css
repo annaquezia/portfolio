@@ -25,7 +25,6 @@
 
 .quinze {
     width: 100%;
-    height: 500px;
     display: flex;
 }
 
@@ -34,6 +33,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .quinze article h1 {
@@ -61,16 +62,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .quinze figure img {
-    width: 500px;
+    width: 75%;
 }
 
 .dezesseis .texto_imagem {
     width: 100%;
-    height: 600px;
     display: flex;
+    margin-bottom: 60px;
 }
 
 .dezesseis .texto_imagem figure {
@@ -80,7 +83,7 @@
 }
 
 .dezesseis .texto_imagem figure img {
-    width: 600px;
+    width: 100%;
 }
 
 .dezesseis .texto_imagem article {
@@ -107,7 +110,7 @@
     line-height: 1.6em;
     text-align: left;
     margin-left: 30px;
-    width: 500px;
+    margin-right: 80px;
 }
 
 .dezesseis .certificado_2016 {
@@ -118,19 +121,17 @@
 }
 
 .dezesseis .certificado_2016 img {
-    width: 700px;
+    width: 70%;
     margin: 50px;
 }
 
 .dezessete .texto_imagem article {
     width: 100%;
     margin-top: 150px;
-    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .dezessete .texto_imagem article h1 {
@@ -148,18 +149,21 @@
     margin-top: 20px;
     line-height: 1.6em;
     text-align: center;
-    width: 1000px;
+    margin-left: 70px;
+    margin-right: 70px;
+;
 }
 
 .dezessete .texto_imagem figure {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .dezessete .texto_imagem figure img {
-    width: 1000px;
-    margin: -150px;
+    width: 75%;
     background: none;
 }
 
@@ -177,7 +181,6 @@
 
 .dezoito {
     width: 100%;
-    height: 700px;
     display: flex;
 }
 
@@ -232,7 +235,6 @@
 
 .outros_trabalhos_robotica {
     width: 100%;
-    height: 300px;
     display: flex;
     justify-content: center;
     background: var(--rosa);
@@ -288,7 +290,6 @@
 
     .quinze {
         flex-direction: column;
-        height: 700px;
     }
 
     .quinze article {
@@ -410,7 +411,6 @@
     .dezoito {
         width: 100%;
         flex-direction: column;
-        height: 1000px;
     }
 
     .dezoito article {
@@ -457,11 +457,11 @@
 
     .outros_trabalhos_robotica h2 {
         font-size: 25px;
-        margin: 0;
+        margin: 40px;
     }
 
     .outros_trabalhos_robotica ul {
-        margin: 20px;
+        margin: 0;
     }
 
     .outros_trabalhos_robotica ul li {

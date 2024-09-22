@@ -225,11 +225,11 @@ h2 {
 
     .outros_trabalhos_beelive h2 {
         font-size: 25px;
-        margin: 0;
+        margin: 40px;
     }
 
     .outros_trabalhos_beelive ul {
-        margin: 20px;
+        margin: 0;
     }
 
     .outros_trabalhos_beelive ul li {
